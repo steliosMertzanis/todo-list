@@ -1,0 +1,12 @@
+.TodoList {
+  background: $backgroundSecond;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .TodoList {
+    height: 100%;
+  }
+}

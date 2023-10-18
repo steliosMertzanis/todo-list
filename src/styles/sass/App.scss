@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "./abstracts/varaliables";
+@import "./components/Todo";
+@import "./components/TodoForm";
+@import "./components/TodoList";
+@import "./components/EditTodoForm";
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $backgroundBasic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+
+  h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .App {
+    font-size: 1.5rem;
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .App {
+    font-size: 1.8rem;
+    height: 80vh;
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+}
